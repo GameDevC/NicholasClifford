@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282023;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@font-face {
+  font-family: "RefrigeratorDeluxe";
+  src: local("RefrigeratorDeluxe"),
+   url("./Fonts/RefrigeratorDeluxe.ttf") format("truetype");
+ }
+
+ @font-face {
+  font-family: "RefrigeratorDeluxeBold";
+  src: local("RefrigeratorDeluxeBold"),
+   url("./Fonts/RefrigeratorDeluxeBold.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+ @font-face {
+  font-family: "RefrigeratorDeluxeExtrabold";
+  src: local("RefrigeratorDeluxeExtrabold"),
+   url("./Fonts/RefrigeratorDeluxeExtrabold.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+ @font-face {
+  font-family: "RefrigeratorDeluxeHeavy";
+  src: local("RefrigeratorDeluxeHeavy"),
+   url("./Fonts/RefrigeratorDeluxeHeavy.ttf") format("truetype");
+   font-weight: bold;
+ }
+
+ @font-face {
+  font-family: "RefrigeratorDeluxeLight";
+  src: local("RefrigeratorDeluxeLight"),
+   url("./Fonts/RefrigeratorDeluxeLight.ttf") format("truetype");
+ }

@@ -1,0 +1,898 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Background-Color{
+  background-color: #282023;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.Background-Decals-Area{
+  background-size: cover;
+  background-position: center;
+  position: absolute; /*moves with background, if want something seeming in the distace use fixed*/
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.BigBackground{
+  background-size: cover;
+  background-position: center;
+  position: relative; /*moves with background, if want something seeming in the distace use fixed*/
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.Background-Decal-One{
+  background-size: 100% 100%;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+  margin-left: 67%;
+  margin-top: 29%;
+  
+}
+
+.Strange-Background-Decal-1{
+  background-image: url("Images/StrangeBackgroundDecal1.webp");
+  background-size: 100% 100%;
+  width: 60%;
+  height: 100%;
+  position: absolute;
+}
+
+.First-Layer-Setup{
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.Background-Fix{
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;  
+}
+
+.Header-Area{
+  background-size: Cover;
+  background-position: center;
+  width: 100%;
+  height: 50%;
+  z-index: 0;
+}
+
+.Header-Image{
+  background-image: url("WebsitePictures/EthernickBanner.jpg");
+  background-size: Cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.Nav-Bar-Background{
+  background-image: url("Images/NavBar.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 10%;
+}
+
+.Nav-Bar-Button-padding-top{
+  background-size: Cover;
+  background-position: center;
+  Height: 17%;
+}
+
+.Nav-Bar-Button-Organizer{
+  display: flex;
+  flex-direction: horizontal;
+  background-size: Cover;
+  background-position: center;
+  height: 100%; 
+}
+
+.Nav-Bar-Button-Left-Padding{
+  background-size: Cover;
+  background-position: center;
+  height: 100%; 
+  width: 7.5%;
+}
+
+.Nav-Bar-Button-Spacing{
+  background-size: Cover;
+  background-position: center;
+  height: 100%; 
+  width: 4.5%;
+}
+
+.Nav-Bar-Button{
+  background-image: url("Images/NavBarButton.png");
+  background-size: 100% 100%;
+  background-position: center;
+  Height: 67%;
+  width: 13%;
+}
+
+.Nav-Bar-Button-Text{
+  font-family: 'RefrigeratorDeluxeHeavy', sans-serif;
+  font-size: 300%;
+  font-weight: bold;
+  line-height: 0; 
+  color: #cb4b27;
+  text-shadow: .1vw .1vh 4px rgba(240, 152, 36, 0.5);
+  margin-top: 0%;
+  text-decoration: none;
+}
+
+.Button-Unformatting{
+  all: unset;
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  text-align: center;
+}
+
+.Paragraph-Spacer{
+  background-size: Cover;
+  background-position: center;
+  height: 4%; 
+  width: 100%;
+}
+
+
+
+.Paragraph-Block{
+  background-size: Cover;
+  background-position: center;
+  height: 80%; 
+  width: 100%;
+}
+
+.Paragraph-Title-Row{
+  background-size: Cover;
+  background-position: center;
+  height: 10%; 
+  width: 100%;
+  display:flex;
+  flex-direction: horizontal;
+}
+
+.Paragraph-Title-Left-Spacer{
+  background-size: Cover;
+  background-position: center;
+  height: 100%; 
+  width: 7%;
+}
+
+.Paragraph-Title{
+  font-family: 'RefrigeratorDeluxeHeavy', sans-serif;
+  font-size: 380%;
+  font-weight: bold;
+  line-height: 1.5; 
+  color: #dcc4a4;
+  text-shadow: .25vw .4vh 1px rgba(0, 0, 0, 0.5);
+}
+
+.Paragraph-Flex{
+  background-size: Cover;
+  background-position: center;
+  height: 80%; 
+  width: 100%;
+  display:flex;
+  flex-direction: horizontal;
+  position: relative;
+}
+
+.Paragraph-Background{
+  background-image: url("Images/ParagraphBackground.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 65%;
+  height: 100%;
+  margin-left: 1.5%;
+}
+
+.Paragraph-Text-Holder{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 87%;
+  height: 90%;
+  margin-left: 7%;
+  margin-top: 3%;
+}
+
+.Paragraph-Text{
+  font-family: 'RefrigeratorDeluxe', sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 1.2; 
+  color: #201f1e;
+}
+
+.Image-Holder{
+  background-image: url("Images/PhotoHolder.webp");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.Picture-Left-Aligned-Spacer{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 23%;
+  height: 90%;
+  margin-left: 4%;
+  padding-top: 1%;
+}
+
+
+.Semi-Paragraph-Holder{
+
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 35%;
+  margin-left: 0%;
+}
+
+.Semi-Paragraph-Background-Spacer{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 17%;
+  margin-left: 4%;
+}
+
+.Semi-Paragraph-Background{
+  background-image: url("Images/SemiParagraphBackground.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 80%;
+  height: 70%;
+  margin-left: 4%;
+}
+
+.Semi-Paragraph-Text-Holer{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 94%;
+  height: 90%;
+  margin-left: 3%;
+}
+
+.Semi-Paragraph-Text-Buffer-Top{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 6%;
+  margin-left: 0%;
+}
+
+.Semi-Paragraph-Text{
+  font-family: 'RefrigeratorDeluxe', sans-serif;
+  font-size: 180%;
+  font-weight: bold;
+  line-height: 1.2; 
+  color: #b4aca5;
+}
+
+
+.Section-Holder{
+
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 55%;
+  margin-left: 0%;
+}
+
+
+
+.Section-Background-Spacer{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 17%;
+  margin-left: 4%;
+}
+
+.Section-Unspacer{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 0%;
+  margin-top: -4%;
+}
+
+.Section-Flex{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: horizontal;
+}
+.Section-Background{
+  background-image: url("Images/SectionBackground.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 60%;
+  margin-left: 4%;
+}
+
+.Section-Unflexer{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 60%;
+  height: 100%;
+  flex-direction: vertical; 
+}
+
+.Section-Title{
+  font-family: 'RefrigeratorDeluxeHeavy', sans-serif;
+  font-size: 340%;
+  font-weight: bold;
+  line-height: 1.5; 
+  color: #dcc4a4;
+  text-shadow: .25vw .4vh 1px rgba(0, 0, 0, 0.5);
+  margin-left: 7%;
+}
+
+.Section-Text-Formatter{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 92%;
+  height: 80%;
+  margin-left: 4%;
+}
+
+.Section-Text-Top-Padding{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 9%;
+}
+
+.Section-Text{
+  font-family: 'RefrigeratorDeluxeHeavy', sans-serif;
+  font-size: 220%;
+  font-weight: bold;
+  line-height: 1.1; 
+  color: #b4aca5;
+}
+
+.Section-Image-Spacer{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 12%;
+  height: 80%;
+}
+
+.Section-Image-Holder{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 17%;
+  height: 67%;
+  margin-top: 3.5%;
+}
+
+.Section-Image-Frame{
+  background-image: url("Images/SectionImageHolder.webp");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Socials-Holder{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 70%;
+}
+
+.Socials-Flex-Direction{
+  display: flex;
+  flex-direction: horizontal;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 90%;
+}
+
+.Socials-Background-Image{
+  background-image: url("Images/SocialsHolderBackground.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 16%;
+  height: 90%;
+}
+
+.Socials-Spacers{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 3%;
+  height: 100%;
+}
+
+.Socials-Spacers-Left{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 7.5%;
+  height: 100%;
+}
+
+.Socials-Button{
+  background-image: url("Images/SocialsButton.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 80%;
+  height: 15%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.Section-Button-Text-Holder{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Section-Button-Text{
+  font-family: 'RefrigeratorDeluxeHeavy', sans-serif;
+  font-size: 240%;
+  font-weight: bold;
+  line-height: 1.5; 
+  color: #dcc4a4;
+  text-align: center;
+  text-shadow: .25vw .4vh 1px rgba(0, 0, 0, 0.5);
+}
+
+.Socials-Text-Holder{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 47%;
+}
+
+.Socials-Text-Top-Spacer{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 10%;
+}
+
+.Section-Text-Holder-Specfic{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+}
+
+.Socials-Text{
+  font-family: 'RefrigeratorDeluxe', sans-serif;
+  font-size: 180%;
+  font-weight: bold;
+  line-height: 1.2; 
+  color: #b4aca5;
+  text-align: center;
+}
+
+.Socials-Image-Holder{
+  background-size: 100% 100%;
+  background-position: center;
+  width: 55%;
+  height: 30%;
+  margin-left: 22.5%;
+}
+
+
+/* for specific photos*/
+.PictureOfMeBackground{
+  background-image: url("WebsitePictures/NickPictureTest.JPG");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.ProjectImageSample{
+  background-image: url("WebsitePictures/NickScream.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.XLogo{
+  background-image: url("WebsitePictures/XLogo.webp");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.TwitchLogo{
+  background-image: url("WebsitePictures/Twitch.webp");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+
+.LinkedInLogo{
+  background-image: url("WebsitePictures/LinkedIn.webp");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+
+.GmailLogo{
+  background-image: url("WebsitePictures/Gmail.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.ScaraRobot{
+  background-image: url("WebsitePictures/OmronScaraRobot.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+
+.ScaraMaintenance{
+  background-image: url("WebsitePictures/OmronMaintainance.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+
+.JakksPacific{
+  background-image: url("WebsitePictures/Jakks.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.Sunpoint{
+  background-image: url("WebsitePictures/Sunpoint.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.TechHighway{
+  background-image: url("WebsitePictures/TechHighway.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+
+.HackTheBox{
+  background-image: url("WebsitePictures/HackTheBox.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.MagistersDream{
+  background-image: url("WebsitePictures/MagistersDream.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+
+.ObjectOrientedGame{
+  background-image: url("WebsitePictures/ObjectOriented.webp");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.PulseJet{
+  background-image: url("WebsitePictures/PulseJet.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.SolarEnergyAssociation{
+  background-image: url("WebsitePictures/SolarEnergyAssociation.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.DeathDefiant{
+  background-image: url("WebsitePictures/DefyDeathLogo.webp");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.MARS{
+  background-image: url("WebsitePictures/MARS.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+
+.TwitchDatabaseAnalyser{
+  background-image: url("WebsitePictures/TwitchDatabaseAna.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.HackMerced{
+  background-image: url("WebsitePictures/HackMerced.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.TwitchStreamingUI{
+  background-image: url("WebsitePictures/TwitchStreamCode.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.FriendNeuralNetwork{
+  background-image: url("WebsitePictures/FriendNeuralNetwork.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.VegasScripts{
+  background-image: url("WebsitePictures/SonyVegasScripts.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.TwitchPlays{
+  background-image: url("WebsitePictures/TwitchPlays.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.AISingingMe{
+  background-image: url("WebsitePictures/AIMeSinging.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.EscapeRoomCode{
+  background-image: url("WebsitePictures/EscapeRoomCode.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.HousePricePredictor{
+  background-image: url("WebsitePictures/HousePricePredictor.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.MotionCaptureThumbnail{
+  background-image: url("WebsitePictures/MotionCaptureThumbnail.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.OmniC{
+  background-image: url("WebsitePictures/OmniC.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.SquareSpace{
+  background-image: url("WebsitePictures/SquareSpace.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.StableDiffusion{
+  background-image: url("WebsitePictures/StableDiffusion.webp");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.SpamEmails{
+  background-image: url("WebsitePictures/SpamEmailDetector.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+
+.SemiProfessionalTechSelfie{
+  background-image: url("WebsitePictures/SemiProfessionalTech.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.ProfessionalSelfie{
+  background-image: url("WebsitePictures/Professional.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.AmbitiousSelfie{
+  background-image: url("WebsitePictures/Ambitious.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.WorkplaceSelfie{
+  background-image: url("WebsitePictures/ProfessionalWorkPlace.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.WhiteboardSelfie{
+  background-image: url("WebsitePictures/BuisnessCasualTeaching.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.EventSelfie{
+  background-image: url("WebsitePictures/AtEvent.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.WebsiteImage{
+  background-image: url("WebsitePictures/WebsiteImage.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.NasServer{
+  background-image: url("WebsitePictures/AoostarR1.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
