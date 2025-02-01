@@ -22,7 +22,7 @@ function App() {
             
           </div>
           <div className = "Nav-Bar-Button">
-            <Link to="/" className = "Nav-Bar-Button-Text">
+            <Link to="/NicholasClifford/" className = "Nav-Bar-Button-Text">
               <button className = "Button-Unformatting">
                 <div>
                   Home
@@ -34,7 +34,7 @@ function App() {
 
           </div>
           <div className = "Nav-Bar-Button">
-            <Link to="/bio" className = "Nav-Bar-Button-Text">
+            <Link to="/NicholasClifford/bio" className = "Nav-Bar-Button-Text">
               <button className = "Button-Unformatting">
                 Bio
               </button>
@@ -44,7 +44,7 @@ function App() {
             
           </div>
           <div className = "Nav-Bar-Button">
-            <Link to="/projects" className = "Nav-Bar-Button-Text">
+            <Link to="/NicholasClifford/projects" className = "Nav-Bar-Button-Text">
               <button className = "Button-Unformatting">
                 Projects
               </button>
@@ -54,7 +54,7 @@ function App() {
             
           </div>
           <div className = "Nav-Bar-Button">
-            <Link to="/experience" className = "Nav-Bar-Button-Text">
+            <Link to="/NicholasClifford/experience" className = "Nav-Bar-Button-Text">
               <button className = "Button-Unformatting">
                 Experience
               </button>
@@ -64,7 +64,7 @@ function App() {
             
           </div>
           <div className = "Nav-Bar-Button">
-            <Link to="/contact" className = "Nav-Bar-Button-Text">
+            <Link to="/NicholasClifford/contact" className = "Nav-Bar-Button-Text">
               <button className = "Button-Unformatting">
                 Contact
               </button>

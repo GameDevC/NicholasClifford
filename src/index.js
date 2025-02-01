@@ -22,11 +22,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />  {/*for some reason it needs the "BigTimeJeff" part before even thought its specified in gh-pages*/}
-      <Route path="/bio" element={<Bio />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/experience" element={<Experience />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/NicholasClifford/" element={<App />} />  {/*for some reason it needs the "BigTimeJeff" part before even thought its specified in gh-pages*/}
+      <Route path="/NicholasClifford/bio" element={<Bio />} />
+      <Route path="/NicholasClifford/projects" element={<Projects />} />
+      <Route path="/NicholasClifford/experience" element={<Experience />} />
+      <Route path="/NicholasClifford/contact" element={<Contact />} />
     </Routes>
   </BrowserRouter>
 );
