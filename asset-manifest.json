@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/NicholasClifford/static/css/main.f3282788.css",
-    "main.js": "/NicholasClifford/static/js/main.44e4ae11.js",
+    "main.css": "/NicholasClifford/static/css/main.de08c729.css",
+    "main.js": "/NicholasClifford/static/js/main.65a69172.js",
     "static/js/488.cdde47d4.chunk.js": "/NicholasClifford/static/js/488.cdde47d4.chunk.js",
+    "static/media/Starwars.png": "/NicholasClifford/static/media/Starwars.9d94a3a568fb830731c7.png",
     "static/media/Professional.png": "/NicholasClifford/static/media/Professional.675ad03de4c7ea2a0263.png",
     "static/media/ProfessionalWorkPlace.png": "/NicholasClifford/static/media/ProfessionalWorkPlace.4c543a9a9c7da811d2bb.png",
     "static/media/Ambitious.png": "/NicholasClifford/static/media/Ambitious.465612901f94b34bc56c.png",
@@ -58,12 +59,12 @@
     "static/media/Twitch.webp": "/NicholasClifford/static/media/Twitch.0eb05e3aeb6ea2160125.webp",
     "static/media/LinkedIn.webp": "/NicholasClifford/static/media/LinkedIn.cc3852a2bc656014067b.webp",
     "index.html": "/NicholasClifford/index.html",
-    "main.f3282788.css.map": "/NicholasClifford/static/css/main.f3282788.css.map",
-    "main.44e4ae11.js.map": "/NicholasClifford/static/js/main.44e4ae11.js.map",
+    "main.de08c729.css.map": "/NicholasClifford/static/css/main.de08c729.css.map",
+    "main.65a69172.js.map": "/NicholasClifford/static/js/main.65a69172.js.map",
     "488.cdde47d4.chunk.js.map": "/NicholasClifford/static/js/488.cdde47d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3282788.css",
-    "static/js/main.44e4ae11.js"
+    "static/css/main.de08c729.css",
+    "static/js/main.65a69172.js"
   ]
 }
