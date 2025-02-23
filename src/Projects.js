@@ -135,6 +135,40 @@ function Projects() {
             <div className = "Section-Flex">
                 <div className = "Section-Unflexer">
                     <div className = "Section-Title">
+                        Unreal Engine Starwars Scene
+                    </div>
+                    <div className = "Section-Background">
+                        <div className = "Section-Text-Formatter">
+                            <div className = "Section-Text-Top-Padding"></div>
+                            <div className = "Section-Text" style={{fontSize: "190%"}}>
+                                This project was a fun side project I did in order to get a handle on the Unreal Engine game engine. The scene was made on a lower end PC at the time, 
+                                so graphically its not as well is it could be. But it did give me experience in modeling the characters, animating the scenes, designing camera shots, 
+                                and creating assets that would for the world such as materials and special effects. Overall this was a begginers project that went from start to finish on
+                                practicing all necessary skills to make a professional scene for both the film industry and gaming industry. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="Section-Image-Spacer">
+                </div> 
+                <div className = "Section-Image-Holder">
+                    <div className = "StarwarsImage">
+                        <div className = "Section-Image-Frame">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div className = "Section-Unspacer"></div>
+
+
+          <div className = "Section-Holder">
+            <div className = "Section-Background-Spacer">
+            </div>
+            <div className = "Section-Flex">
+                <div className = "Section-Unflexer">
+                    <div className = "Section-Title">
                         Machine Learning Friend Predictor
                     </div>
                     <div className = "Section-Background">
