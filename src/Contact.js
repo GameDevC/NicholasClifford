@@ -99,10 +99,10 @@ function Contact() {
 
 
                 <div className = "Socials-Background-Image">
-                    <div className = "Socials-Button" onClick={() => window.location.href = 'https://x.com/EthernickAI'}>
+                    <div className = "Socials-Button" onClick={() => window.location.href = 'https://ethernickdev.itch.io/'}>
                         <div className = "Section-Button-Text-Holder">
                             <div className = "Section-Button-Text">
-                                Twitter
+                                Itch.IO
                             </div>
                         </div>
                     </div>
@@ -112,13 +112,13 @@ function Contact() {
                         </div>
                         <div className = "Section-Text-Holder-Specfic">
                             <div className = "Socials-Text">
-                                I don't even update twitter any more, so like this is kinda useless
+                                Not much to put on here, but I check it every now and then for game jams.
                             </div>
                         </div>
                         
                     </div>
                     <div className = "Socials-Image-Holder">
-                        <div className = "XLogo">
+                        <div className = "itchcIO">
 
                         </div>
                     </div>
