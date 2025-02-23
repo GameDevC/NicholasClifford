@@ -896,3 +896,12 @@
   height: 100%;
   margin-left: 0;
 }
+
+.StarwarsImage{
+  background-image: url("Images/Starwars.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
