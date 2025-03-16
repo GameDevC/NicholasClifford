@@ -169,6 +169,41 @@ function Projects() {
             <div className = "Section-Flex">
                 <div className = "Section-Unflexer">
                     <div className = "Section-Title">
+                        Unreal Engine Basic Game Demo
+                    </div>
+                    <div className = "Section-Background">
+                        <div className = "Section-Text-Formatter">
+                            <div className = "Section-Text-Top-Padding"></div>
+                            <div className = "Section-Text" style={{fontSize: "185%"}}>
+                                This was a project that I chose to take up because I wanted to get familiar with the game development side of unreal engine. Everything in the game is
+                                made by me, including the level design, level modeling, game mechanics, etc. The only things I did not make were the main menu image, and the music which 
+                                come from Metroid and Paper Mario: The Thousand Year Door Respectively. This helped me understand the more mechanical side of game development, and even
+                                though it is a less serious project, I feel confident in being able to make a fully fledge and fun video game experience in any game genera after completing 
+                                it. The demo for this game can also be found on my Itch.io page. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="Section-Image-Spacer">
+                </div> 
+                <div className = "Section-Image-Holder">
+                    <div className = "UnrealEngineDemoImage">
+                        <div className = "Section-Image-Frame">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div className = "Section-Unspacer"></div>
+
+
+          <div className = "Section-Holder">
+            <div className = "Section-Background-Spacer">
+            </div>
+            <div className = "Section-Flex">
+                <div className = "Section-Unflexer">
+                    <div className = "Section-Title">
                         Machine Learning Friend Predictor
                     </div>
                     <div className = "Section-Background">
