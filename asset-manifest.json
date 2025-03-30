@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NicholasClifford/static/css/main.6684007c.css",
-    "main.js": "/NicholasClifford/static/js/main.d8d69eda.js",
+    "main.css": "/NicholasClifford/static/css/main.23f224d4.css",
+    "main.js": "/NicholasClifford/static/js/main.67613c24.js",
     "static/js/488.cdde47d4.chunk.js": "/NicholasClifford/static/js/488.cdde47d4.chunk.js",
     "static/media/Starwars.png": "/NicholasClifford/static/media/Starwars.9d94a3a568fb830731c7.png",
     "static/media/Professional.png": "/NicholasClifford/static/media/Professional.675ad03de4c7ea2a0263.png",
@@ -13,6 +13,7 @@
     "static/media/ParagraphBackground.png": "/NicholasClifford/static/media/ParagraphBackground.3c2367f4cdbb8ce039f7.png",
     "static/media/BoomersDownfall.png": "/NicholasClifford/static/media/BoomersDownfall.dbab502e36fb153d0fa8.png",
     "static/media/EthernickBanner.jpg": "/NicholasClifford/static/media/EthernickBanner.dd9db8388c3b5185b1ee.jpg",
+    "static/media/HackPack.png": "/NicholasClifford/static/media/HackPack.9ed24e4644d95cc1353c.png",
     "static/media/SemiProfessionalTech.png": "/NicholasClifford/static/media/SemiProfessionalTech.225237430b0df262189c.png",
     "static/media/BuisnessCasualTeaching.png": "/NicholasClifford/static/media/BuisnessCasualTeaching.b6219e0696648e530a5a.png",
     "static/media/AoostarR1.jpg": "/NicholasClifford/static/media/AoostarR1.5e39d74d1189de568a1d.jpg",
@@ -61,12 +62,12 @@
     "static/media/Twitch.webp": "/NicholasClifford/static/media/Twitch.0eb05e3aeb6ea2160125.webp",
     "static/media/LinkedIn.webp": "/NicholasClifford/static/media/LinkedIn.cc3852a2bc656014067b.webp",
     "index.html": "/NicholasClifford/index.html",
-    "main.6684007c.css.map": "/NicholasClifford/static/css/main.6684007c.css.map",
-    "main.d8d69eda.js.map": "/NicholasClifford/static/js/main.d8d69eda.js.map",
+    "main.23f224d4.css.map": "/NicholasClifford/static/css/main.23f224d4.css.map",
+    "main.67613c24.js.map": "/NicholasClifford/static/js/main.67613c24.js.map",
     "488.cdde47d4.chunk.js.map": "/NicholasClifford/static/js/488.cdde47d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6684007c.css",
-    "static/js/main.d8d69eda.js"
+    "static/css/main.23f224d4.css",
+    "static/js/main.67613c24.js"
   ]
 }
