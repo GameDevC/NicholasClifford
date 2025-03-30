@@ -169,6 +169,38 @@ function Projects() {
             <div className = "Section-Flex">
                 <div className = "Section-Unflexer">
                     <div className = "Section-Title">
+                        Robotics Hack Pack
+                    </div>
+                    <div className = "Section-Background">
+                        <div className = "Section-Text-Formatter">
+                            <div className = "Section-Text-Top-Padding"></div>
+                            <div className = "Section-Text" style={{fontSize: "190%"}}>
+                                This is a collection of robotics that I have been completing on a regular basis designed by Mark Rober, an ex NASA engineer and current content creator. 
+                                These packs give a basic premise and design for robotics, and allow you to build and modify them. This provides a firm basis centered around a certain topic,
+                                like IR following, and allows flexible modification while providing manufactured parts that otherwise wouldn't be commercially available. These packs allow
+                                the user to understand a large variety of topics in robotics, programming, electrical engineering, modeling/3d printing, etc. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="Section-Image-Spacer">
+                </div> 
+                <div className = "Section-Image-Holder">
+                    <div className = "HackPackImage">
+                        <div className = "Section-Image-Frame">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+
+          <div className = "Section-Holder">
+            <div className = "Section-Background-Spacer">
+            </div>
+            <div className = "Section-Flex">
+                <div className = "Section-Unflexer">
+                    <div className = "Section-Title">
                         Unreal Engine Basic Game Demo
                     </div>
                     <div className = "Section-Background">
